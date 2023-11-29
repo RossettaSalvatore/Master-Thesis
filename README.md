@@ -7,4 +7,8 @@
 - Add social choice theory definitions and properties in Foundation chapter
 - Add framework paragraph in Foundation chapter 
 
+## 25/11/23 - Meeting with Professor Beckert 
+- Add monotonocity "variant" property: if a party "A" has more votes than another party "B", then A must have at least the same number of parties than B.
+- Change outcome of the module from "Parties => Seats" to "Seats => Parties", assigning each seat to a party.
+- 
 ## 25/11/23-1/12/23
