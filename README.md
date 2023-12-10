@@ -21,3 +21,5 @@
 ## 2/12/23-9/12/23
 - Change structure of the thesis: the implementation now will be directly on the framework to better check which modules to use.
 - look at Loop Composition, Terminal Conditions, Electoral Module, Defer Module which will be used in my work. 
+- Abstraction of Seats from nat => 'a to 'a => 'b; therefore, adaptation of functions developed will be necessary.
+- Tie breaking strategy: only in the case of a tie, for the disputed seats I leave not an only element in the set but the alternatives.  
