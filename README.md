@@ -30,8 +30,21 @@
 - Despite what said in the last week meeting, tie_breaking_module has been implemented with returning one Seats function and not two ("assigned" and "disputed"): this way it's more efficient and I have the same output for both ties and no ties situation.
 - Finished to change all types to polymorphic ones: the only one left are nat for counters and lengths and nat list for the parameters but they will be changed.
 
-
 ## 16/12/23-23/12/23
 - Single functions written last week put together in bigger submodules.
 - Implementation of "main_function", which takes the already counted votes among other parameters and assigns all the seats.
 - Now Seats is a 'a => 'b set function: this is due to cleaning of the code and semplification of some types.
+
+## 05/01/24-22/01/24
+- Adaptating functions of the module to framework's ones 
+- Write theorem about anonyimity
+- Starting to write proofs and termination conditions for minor functions (such as find_max_votes)
+- Introducing type synonym "Divisor_Module_Params", series of products of parameters
+
+## 23/01/24-
+- Changing products type synonym Divisor_Module_Params with a record after Dr. Kirsten's advice
+- To this record I added "nseats", number of seats current available
+- Subsequent adaptations of all functions to the record
+- Cleaning some functions (like main_function)
+- Reading documents about locales and starting to introduce it in code: this locale will have both my record and Electoral Module
+- Adding lemmas about decreasing measures on functions (divisor_module, loop_divisor, main_function)
