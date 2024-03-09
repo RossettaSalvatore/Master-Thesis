@@ -41,10 +41,16 @@
 - Starting to write proofs and termination conditions for minor functions (such as find_max_votes)
 - Introducing type synonym "Divisor_Module_Params", series of products of parameters
 
-## 23/01/24-
+## 23/01/24-10/02/24
 - Changing products type synonym Divisor_Module_Params with a record after Dr. Kirsten's advice
 - To this record I added "nseats", number of seats current available
 - Subsequent adaptations of all functions to the record
 - Cleaning some functions (like main_function)
 - Reading documents about locales and starting to introduce it in code: this locale will have both my record and Electoral Module
+
+## 11/02/24 - 13/03/24
+- Consultation about anonyimity
+- Fixing type synonym
+- Talking about changing Votes from function ('b => rat) to a simpler rat list
+- Adapting code to previous change
 - Adding lemmas about decreasing measures on functions (divisor_module, loop_divisor, main_function)
