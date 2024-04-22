@@ -65,3 +65,10 @@
 - Writing concordance property on the document
 - Formalization of divisor method (needs to be changed and remove the use of time)
 - main lemma about concordance has almost of all the cases covered, the hardest one is missing
+
+## 05/04/23 - 19/14/23
+- Concordance theorem finished for assign seats function
+- Monotonicity theorem finished for assign seats function
+- Clean of all code
+- New formalization of the method on document
+- Writing properties with proofs on document 
